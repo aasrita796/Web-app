@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>XYZ APP</h2>
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="password">
+        <button onclick="login()">LOG IN</button>
+        <p class="forgot-password">Forgot Password?</p>
+    </div>
+
+    <div class="shop-container" style="display: none;">
+        <h1>Shop Now</h1>
+        <input type="text" id="search" placeholder="Search" onkeyup="searchItems()">
+        <div class="items">
+            <div class="item">
+                <img src="https://via.placeholder.com/100" alt="Bed Mattress">
+                <div>
+                    <h2>Bed Mattress</h2>
+                    <p>(description)</p>
+                    <p>(price)</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/100" alt="Suitcase">
+                <div>
+                    <h2>Suitcase</h2>
+                    <p>(description)</p>
+                    <p>(price)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
